@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hundekurse.dokufile.com/sitemap.xml
