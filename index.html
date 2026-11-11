@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Für Hundeschulen in Deutschland: Kunden buchen Kurse und Einzelstunden online, freie Plätze sind aktuell, die Teilnehmerliste ist fertig.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Kursleine</a></div>
-  <nav class="top"><a href="#was" data-ev="click_nav_was">Was Sie bekommen</a><a href="price.html" data-ev="click_nav_preis">Preis</a><a href="#beispiel" data-ev="click_nav_beispiel">Beispiel</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Kursleine</a>
+  <nav><a href="#was" data-ev="click_nav_was">Was Sie bekommen</a><a href="price.html" data-ev="click_nav_preis">Preis</a><a href="#beispiel" data-ev="click_nav_beispiel">Beispiel</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Kurse online buchen lassen — und vor jeder Stunde steht die Teilnehmerliste</h1>
-    <p class="sub">Für Hundeschulen mit einer Trainerin oder einem Trainer oder einem kleinen Team: Welpenkurs, Junghundekurs, Alltagstraining und Einzelstunden stehen mit Terminen und freien Plätzen online, Kunden buchen selbst, und jede Teilnahme ist mit Hund, Rasse und Notiz in der Liste.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Das brauche ich</a>
-    <p class="cta-note">Dienst in Vorbereitung · Auf dieser Seite wird keine Zahlung angenommen</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Für Hundeschulen mit einer Trainerin</p>
+      <h1 class="rise" style="--i:1" data-len="long">Kurse online buchen lassen&nbsp;<span class="soft">— und vor jeder Stunde steht die Teilnehmerliste</span></h1>
+      <p class="rise" style="--i:2">Für Hundeschulen mit einer Trainerin oder einem Trainer oder einem kleinen Team: Welpenkurs, Junghundekurs, Alltagstraining und Einzelstunden stehen mit Terminen und freien Plätzen online, Kunden buchen selbst, und jede Teilnahme ist mit Hund, Rasse und Notiz in der Liste.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Das brauche ich</a>
+      <p class="meta rise" style="--i:4">Dienst in Vorbereitung · Auf dieser Seite wird keine Zahlung angenommen</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="120" y="158" font-size="36" fill="#0a1524" font-weight="600">Kursleine</text><line x1="120" y1="204" x2="1080" y2="204" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="246" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="188" y="280" font-size="30" fill="#0a1524">Kurse</text><rect x="120" y="358" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="188" y="392" font-size="30" fill="#0a1524">Buchung</text><rect x="120" y="470" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="188" y="504" font-size="30" fill="#0a1524">Teilnehmerliste</text><rect x="730" y="250" width="340" height="410" fill="#dfe8f7" rx="20" /><text x="760" y="318" font-size="32" fill="#0a1524" font-weight="600">Erinnerungen</text><rect x="770" y="450" width="46" height="150" fill="#ffffff" rx="8" /><rect x="840" y="500" width="46" height="100" fill="#ffffff" rx="8" /><rect x="910" y="390" width="46" height="210" fill="#12397a" rx="8" /><rect x="980" y="520" width="46" height="80" fill="#ffffff" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Für</dt><dd>Hundeschulen mit einer Trainerin</dd></div>
+      <div><dt>Kurse</dt><dd>Kurse online buchen</dd></div>
+      <div><dt>Liste</dt><dd>Steht die Teilnehmerliste</dd></div>
+      <div><dt>Dienst</dt><dd>Dienst in Vorbereitung</dd></div>
+    </dl>
+  </section>
 
   <section id="was" data-view="features_view">
-    <h2>Was Sie bekommen</h2>
-    <div class="grid">
-      <div class="card"><b>Kurse und Termine</b><span>Kurse mit Terminen, Ort und Platzzahl, Einzelstunden im Kalender.</span><br><a class="btn" href="price.html" data-ev="feature_kurse">Das brauche ich</a></div>
-      <div class="card"><b>Online-Buchung</b><span>Kunden buchen selbst, freie Plätze sind immer aktuell.</span><br><a class="btn" href="price.html" data-ev="feature_buchung">Das brauche ich</a></div>
-      <div class="card"><b>Teilnehmerliste</b><span>Jede Stunde mit Hund, Rasse, Alter und Notizen.</span><br><a class="btn" href="price.html" data-ev="feature_liste">Das brauche ich</a></div>
-      <div class="card"><b>Erinnerungen</b><span>Bestätigung und Erinnerung vor der Stunde per E-Mail.</span><br><a class="btn" href="price.html" data-ev="feature_erinnerung">Das brauche ich</a></div>
+    <div class="stack"><h2>Was Sie bekommen</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">Kurse und Termine</text><text x="110" y="192" font-size="28" fill="#566174">Platzzahl</text><rect x="120" y="246" width="110" height="64" fill="#dfe8f7" rx="8" /><rect x="260" y="246" width="110" height="64" fill="#dfe8f7" rx="8" /><rect x="400" y="246" width="110" height="64" fill="#dfe8f7" rx="8" /><rect x="540" y="246" width="110" height="64" fill="#dfe8f7" rx="8" /><rect x="120" y="330" width="110" height="64" fill="#dfe8f7" rx="8" /><rect x="260" y="330" width="110" height="64" fill="#dfe8f7" rx="8" /><rect x="400" y="330" width="110" height="64" fill="#12397a" rx="8" /><rect x="540" y="330" width="110" height="64" fill="#dfe8f7" rx="8" /><rect x="120" y="414" width="110" height="64" fill="#dfe8f7" rx="8" /><rect x="260" y="414" width="110" height="64" fill="#dfe8f7" rx="8" /><rect x="400" y="414" width="110" height="64" fill="#dfe8f7" rx="8" /><rect x="540" y="414" width="110" height="64" fill="#dfe8f7" rx="8" /></svg></div>
+        <h3>Kurse und Termine</h3><p>Kurse mit Terminen, Ort und Platzzahl, Einzelstunden im Kalender.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kurse">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">Online-Buchung</text><rect x="120" y="200" width="200" height="280" fill="#dfe8f7" rx="28" /><rect x="150" y="230" width="140" height="18" fill="#ffffff" rx="8" /><rect x="170" y="430" width="100" height="14" fill="#ffffff" rx="6" /><rect x="370" y="230" width="300" height="150" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><polygon points="370,300 340,330 370,350" fill="#ffffff" /><text x="394" y="310" font-size="30" fill="#0a1524" font-weight="600">freie Plätze</text></svg></div>
+        <h3>Online-Buchung</h3><p>Kunden buchen selbst, freie Plätze sind immer aktuell.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_buchung">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">Teilnehmerliste</text><rect x="110" y="196" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,218 128,228 144,208" fill="none" stroke="#12397a" stroke-width="4" /><text x="174" y="228" font-size="30" fill="#0a1524">Rasse</text><rect x="110" y="272" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,294 128,304 144,284" fill="none" stroke="#12397a" stroke-width="4" /><rect x="174" y="284" width="320" height="18" fill="#dde2ea" rx="8" /><rect x="110" y="348" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,370 128,380 144,360" fill="none" stroke="#12397a" stroke-width="4" /><rect x="174" y="360" width="250" height="18" fill="#dde2ea" rx="8" /><rect x="110" y="424" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="174" y="436" width="320" height="18" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Teilnehmerliste</h3><p>Jede Stunde mit Hund, Rasse, Alter und Notizen.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_liste">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">Erinnerungen</text><rect x="150" y="210" width="500" height="200" fill="#dfe8f7" rx="16" /><polygon points="170,230 400,360 630,230" fill="#ffffff" /><text x="200" y="470" font-size="32" fill="#0a1524" font-weight="600">E-Mail</text></svg></div>
+        <h3>Erinnerungen</h3><p>Bestätigung und Erinnerung vor der Stunde per E-Mail.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_erinnerung">Das brauche ich</a>
+      </article>
     </div>
   </section>
 
-  <section id="beispiel" data-view="example_view">
-    <h2>Beispiel (fiktive Daten)</h2>
-    <p class="fine">Hundeschule mit einer Trainerin, drei Welpenkursen und einem Junghundekurs pro Woche. Kunden buchen die Plätze über einen Link auf der Website. Am Samstagmorgen sieht die Trainerin auf dem Handy, wer kommt, welcher Welpe zum ersten Mal dabei ist und wer seinen Platz abgesagt hat.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Paket wählen</a>
+  <section id="beispiel" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Beispiel</h2>
+      <p>Hundeschule mit einer Trainerin, drei Welpenkursen und einem Junghundekurs pro Woche. Kunden buchen die Plätze über einen Link auf der Website. Am Samstagmorgen sieht die Trainerin auf dem Handy, wer kommt, welcher Welpe zum ersten Mal dabei ist und wer seinen Platz abgesagt hat.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Paket wählen</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="180" y1="150" x2="1020" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><rect x="90" y="180" width="300" height="60" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><text x="240" y="218" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">Welpenkursen</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><rect x="450" y="180" width="300" height="60" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><text x="600" y="218" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">Samstagmorgen</text><circle cx="960" cy="150" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><rect x="810" y="180" width="300" height="60" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><text x="960" y="218" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">Handy</text><rect x="120" y="290" width="960" height="430" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="370" font-size="36" fill="#0a1524" font-weight="600">Teilnehmerliste</text><text x="170" y="440" font-size="30" fill="#566174">Notizen</text><rect x="170" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="270" y="510" width="64" height="64" fill="#12397a" rx="10" /><rect x="370" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="470" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="570" y="510" width="64" height="64" fill="#12397a" rx="10" /><rect x="670" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>So funktioniert es</h2>
-    <p>Hundeschulen in Deutschland arbeiten meist klein: eine Trainerin oder ein Trainer, manchmal ein Team von zwei oder drei Personen, dazu Kurse für Welpen, junge Hunde und den Alltag und Einzelstunden für besondere Fälle. Die Anmeldung läuft oft über Telefon, Messenger und E-Mail.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>So funktioniert es</h2></div>
+    <div class="stack">
+      <p>Hundeschulen in Deutschland arbeiten meist klein: eine Trainerin oder ein Trainer, manchmal ein Team von zwei oder drei Personen, dazu Kurse für Welpen, junge Hunde und den Alltag und Einzelstunden für besondere Fälle. Die Anmeldung läuft oft über Telefon, Messenger und E-Mail.</p>
     <p>Das kostet Zeit. Jede Anfrage muss beantwortet werden, freie Plätze werden in einem Heft oder einer Tabelle gezählt, und wenn jemand absagt, wird der Platz per Nachricht neu vergeben. Vor jeder Stunde stellt die Trainerin aus Nachrichten zusammen, wer kommt und mit welchem Hund.</p>
     <p>Die Software übernimmt die Anmeldung. Sie legen Ihre Kurse an: Name, Termine, Ort, Anzahl der Plätze und Preis. Einzelstunden stehen als freie Zeiten im Kalender. Kunden sehen online, wo noch Plätze frei sind, und buchen selbst.</p>
     <p>Bei der Buchung gibt der Kunde die Angaben zum Hund ein: Name, Rasse, Alter und, wenn nötig, eine Notiz, etwa zu Angst vor anderen Hunden oder einer Verletzung. Diese Angaben stehen später in der Teilnehmerliste und müssen nicht bei jedem Kurs neu erfragt werden.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Der Buchungslink lässt sich auf der eigenen Website, im Profil bei Google oder in sozialen Netzwerken einbinden. Eine eigene Website ist nicht nötig: die Kursübersicht hat eine eigene Seite.</p>
     <p>Der Einstieg dauert einen Nachmittag: Kurse und Termine anlegen, bestehende Kunden aus einer Tabelle übernehmen, Link teilen. Die Software läuft im Browser und auf dem Handy, ohne Installation.</p>
     <p>Die Software ist für Hundeschulen und selbständige Hundetrainerinnen und Hundetrainer in Deutschland gedacht. Sie ist in Vorbereitung: Wir prüfen zuerst, ob Hundeschulen sie brauchen. Für den Unterricht, die Erlaubnis nach § 11 Tierschutzgesetz und die Verträge mit Kunden bleibt die Hundeschule verantwortlich.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Häufige Fragen</h2>
-    <h3>Für wen ist die Software?</h3>
-    <p>Für Hundeschulen und selbständige Hundetrainerinnen und Hundetrainer in Deutschland, die ihre Kurse selbst leiten.</p>
-    <h3>Können Kunden selbst buchen?</h3>
-    <p>Ja, über einen Link sehen sie freie Plätze und buchen Kurse und Einzelstunden selbst.</p>
-    <h3>Gibt es eine Teilnehmerliste?</h3>
-    <p>Ja, vor jeder Stunde mit Hund, Rasse, Alter und Notizen, auf dem Handy oder als PDF.</p>
-    <h3>Muss ich etwas installieren?</h3>
-    <p>Nein, die Software läuft im Browser und auf dem Handy.</p>
-    <h3>Kann ich sie schon nutzen?</h3>
-    <p>Noch nicht. Die Software ist in Vorbereitung, und wir prüfen, ob Hundeschulen sie brauchen.</p>
+    <div class="stack"><h2>Häufige Fragen</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Für wen ist die Software?</h3><p>Für Hundeschulen und selbständige Hundetrainerinnen und Hundetrainer in Deutschland, die ihre Kurse selbst leiten.</p></div>
+      <div class="split flip"><h3>Können Kunden selbst buchen?</h3><p>Ja, über einen Link sehen sie freie Plätze und buchen Kurse und Einzelstunden selbst.</p></div>
+      <div class="split flip"><h3>Gibt es eine Teilnehmerliste?</h3><p>Ja, vor jeder Stunde mit Hund, Rasse, Alter und Notizen, auf dem Handy oder als PDF.</p></div>
+      <div class="split flip"><h3>Muss ich etwas installieren?</h3><p>Nein, die Software läuft im Browser und auf dem Handy.</p></div>
+      <div class="split flip"><h3>Kann ich sie schon nutzen?</h3><p>Noch nicht. Die Software ist in Vorbereitung, und wir prüfen, ob Hundeschulen sie brauchen.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Legen Sie Ihre Hundeschule an</h2>
-    <p><label>Kurse pro Woche<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— bitte wählen —</option><option>1–3</option><option>4–8</option><option>9–15</option><option>Mehr als 15</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Starten</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Legen Sie Ihre Hundeschule an</h2>
+    </div>
+    <div class="tile stack">
+      <label>Kurse pro Woche<select data-ev-focus="form_start"><option value="">— bitte wählen —</option><option>1–3</option><option>4–8</option><option>9–15</option><option>Mehr als 15</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Starten</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Kursleine</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Datenschutz</a></p>
-  <p class="muted">Software für die Kursbuchung Ihrer Hundeschule. Für den Unterricht und die Verträge mit Kunden bleibt die Hundeschule verantwortlich.</p>
+  <p>Software für die Kursbuchung Ihrer Hundeschule. Für den Unterricht und die Verträge mit Kunden bleibt die Hundeschule verantwortlich.</p>
 </div></footer>
 
 </body>
